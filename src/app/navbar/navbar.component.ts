@@ -42,23 +42,11 @@ import { map, shareReplay } from 'rxjs/operators';
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      height: 100%; 
-    }
-    .sidenav-container {
-      height: 100%;
-    }
-    .sidenav {
-      width: 200px;
-    }
-    .sidenav .mat-toolbar {
-      background: inherit;
-    }
-    .mat-toolbar.mat-primary {
-      position: sticky;
-      top: 0;
-      z-index: 1;
-      height: 64px;
-    }
+      height: 100%;}
+    .sidenav-container {height: 100%;}
+    .sidenav {width: 200px;}
+    .sidenav .mat-toolbar {background: inherit;}
+    .mat-toolbar.mat-primary {position: sticky;top: 0;z-index: 1;height: 64px;}
   `]
 })
 export class NavbarComponent {

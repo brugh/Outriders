@@ -10,14 +10,11 @@ import { Component, OnInit } from '@angular/core';
     </div>
   `,
   styles: [`
-    .hover:hover {
-      border-color: #f4f4f4 !important;
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .9);
-      transition: border-color .167s linear, box-shadow .167s linear;
-    }
-    .top { top: 25%; }
-    .bottom { top: 75%; }
-    .inc { width: 80%; }
+    .hover:hover {border-color: #f4f4f4 !important;box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .9);
+      transition: border-color .167s linear, box-shadow .167s linear;}
+    .top{top:25%;}
+    .bottom{top:75%;}
+    .inc{width:80%;}
   `]
 })
 export class HomeComponent implements OnInit {
